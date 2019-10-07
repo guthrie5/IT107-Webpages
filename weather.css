@@ -1,0 +1,52 @@
+p {
+    font-size: 2.2em;
+}
+
+#weather-heading {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.weather-forecast {
+    background-color: antiquewhite;
+}
+
+.forecast {
+    display: inline-block;
+    color: red;
+    width: 15vh;
+    height: 15vh;
+    padding: 2em;
+    background-color: lightblue;
+    margin: .5em;
+    justify-content: center;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.forecast:nth-child(even){
+    background: blue
+}
+.forecast:nth-child(odd){
+    background: black
+}
+a:link {
+    background-color: lightblue;
+    color: orange;
+}
+
+a:visited {
+    background-color: lightblue;
+    color: honeydew;
+}
+
+a:hover {
+    background-color: blue;
+    color: green;
+}
+
+a:active {
+    background-color: green;
+    color: pink;
+}

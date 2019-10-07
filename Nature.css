@@ -1,0 +1,34 @@
+:root {
+    --hbgc: #c0b657;
+    --htc: #f12356;
+    --h2tc: #97533f;
+    --mbgc: #0fffff;
+    --ptc: #2222ff;
+    --ultc: #567234;
+    --pbgc: #b88c85;
+    --ulbgc: #102538;
+    --abgc: #5a6869;
+}
+
+h1 {
+    background-color: var(--hbgc);
+    color: var(--htc);
+}
+h2 {
+    color: var(--h2tc);
+    background-color: var(--hbgc);
+}
+body {
+    background-color: var(--mbgc);
+}
+p {
+    color: var(--ptc);
+    background-color: var(--pbgc);
+}
+ul {
+    color: var(--ultc);
+    background-color: var(--ulbgc);
+}
+a {
+    background-color: var(--abgc);
+}

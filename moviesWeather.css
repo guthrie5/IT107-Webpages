@@ -1,0 +1,31 @@
+li {
+    color: rgb(73, 1, 73);
+    font-size: 40px; 
+    font-family: fantasy;
+    font-weight: bolder;
+    border-radius: 25px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    text-align: center;
+    margin: 5%;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+    background-color: honeydew;
+    list-style-type: none;
+}
+.background {
+    background-color: darkgoldenrod;
+}
+.forecast {
+    width: 10vh;
+    height: 10vh;
+    padding: 2em;
+    background-color: lightblue;
+    margin: 2em;
+}
+img {
+    margin: -4%;
+}
